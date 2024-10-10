@@ -9,7 +9,7 @@ export const NavBar = () => {
         <nav className='fixed top-0 z-50 w-full bg-black/90 shadow-md'>
             <div className='flex justify-around items-center h-16'>
                 <ul className='flex gap-x-6'>
-                    <li><Link to='/manu' className='nav-text'>menu</Link></li>
+                    <li><Link to='/menu' className='nav-text'>menu</Link></li>
                     <li><Link to='/rewards' className='nav-text'>rewards</Link></li>
                     <li><Link to='/giftcards' className='nav-text'>gift cards</Link></li>
                 </ul>
