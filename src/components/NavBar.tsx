@@ -17,8 +17,8 @@ export const NavBar = () => {
                     <Link to='/'><img src={dutchLogo} className='w-[140px]'/></Link>
                 </div>
                 <div className='flex space-x-8'>
-                    <Link to=''><img src={locator}/></Link>
-                    <Link to=''><img src={menu}/></Link>
+                    <Link to=''><img src={locator} className='hover:scale-110 transition-transform ease-in-out'/></Link>
+                    <Link to=''><img src={menu} className='hover:scale-110 transition-transform ease-in-out'/></Link>
                 </div>
             </div>
         </nav>
