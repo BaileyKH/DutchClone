@@ -29,7 +29,7 @@
 @layer base {
 
   body{
-    @apply bg-black font-montserrat box-border uppercase scroll-smooth 
+    @apply bg-black font-montserrat box-border scroll-smooth 
   }
 
   .block {
@@ -41,6 +41,7 @@
     font-weight: 500;
     color: #ea580c;
     position: relative;
+    @apply uppercase
   }
 
   .nav-text::after {
@@ -56,5 +57,13 @@
 
   .nav-text:hover::after {
     width: 100%; 
+  }
+
+  .hero-txt {
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.5)
+  }
+
+  .hero-btn-hover:hover {
+    box-shadow: 0 0 0px 8px rgba(251, 139, 0, 0.8);
   }
 }
