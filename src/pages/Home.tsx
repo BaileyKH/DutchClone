@@ -1,6 +1,9 @@
 import { Link } from 'react-router-dom';
 
 import flannel from '/src/assets/images/hero-flannel.webp'
+import classics from '/src/assets/images/classics.webp'
+import rebel from '/src/assets/images/rebel.webp'
+import coldBrew from '/src/assets/images/cold-brew.webp'
 
 export const Home = () => {
     return(
@@ -27,7 +30,48 @@ export const Home = () => {
                     </div>
                 </div>
             </section>
+            <section className='py-16'>
+                <div className='max-w-[1366px] w-full mx-auto'>
+                    <div className='mb-10 text-center'>
+                        <h1 className='font-bold text-5xl uppercase my-5 text-orange-600'>dutch coffee<sup>®</sup> drive thru faves</h1>
+                    </div>
+                    <div className='flex justify-evenly items-center'>
+                        <div>
+                            <Link to='/menu/dutch-faves' className='mx-6'>
+                                <div>
+                                    <img src={classics} className='hover:scale-95 transition-transform ease-in-out w-[407px]'/>
+                                </div>
+                                <div className='flex justify-center'>
+                                    <h3 className='text-3xl font-bold text-orange-600 my-5 uppercase'>Dutch Faves</h3>
+                                </div>
+                            </Link>
+                        </div>
+                        <div>
+                            <Link to='/menu/rebels' className='mx-6'>
+                                <div>
+                                    <img src={rebel} className='hover:scale-95 transition-transform ease-in-out w-[407px]'/>
+                                </div>
+                                <div className='flex justify-center'>
+                                    <h3 className='text-3xl font-bold text-orange-600 my-5 uppercase'>Dutch Bros Rebel™</h3>
+                                </div>
+                            </Link>
+                        </div>
+                        <div>
+                            <Link to='/menu/classics' className='mx-6'>
+                                <div>
+                                    <img src={coldBrew} className='hover:scale-95 transition-transform ease-in-out w-[407px]'/>
+                                </div>
+                                <div className='flex justify-center'>
+                                    <h3 className='text-3xl font-bold text-orange-600 my-5 uppercase'>Coffee Classics</h3>
+                                </div>
+                            </Link>
+                        </div>
+                    </div>
+                    <div className='mt-10 flex justify-center'>
+                        <Link to='/menu' className='text-white text-center font-bold rounded-full min-w-[200px] w-fit m-[18px] p-[18px] bg-orange-600 hover:bg-[#fb8b00] hover:border-[#fb8b00] border-2 border-orange-600 uppercase transition-colors duration-300 ease-in-out'>see full menu</Link>
+                    </div>
+                </div>
+            </section>
         </main>
     );
 }
-
