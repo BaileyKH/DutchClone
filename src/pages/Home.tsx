@@ -3,15 +3,13 @@ import { Link } from "react-router-dom";
 
 import transitionHelper from "../AnimationUtil";
 
-import flannel from "/src/assets/images/hero-flannel.webp";
+import letsBru from "/src/assets/images/hero/lets-brew.webp"
 
-import horn from "/src/assets/images/horn.webp";
-import pumpkin from "/src/assets/images/pumpkin.webp";
-import bat from "/src/assets/images/bat.webp";
+import bat from "/src/assets/images/faves/bat.webp";
 
-import classics from "/src/assets/images/classics.webp";
-import rebel from "/src/assets/images/rebel.webp";
-import coldBrew from "/src/assets/images/cold-brew.webp";
+import classics from "/src/assets/images/faves/classics.webp";
+import rebel from "/src/assets/images/faves/rebel.webp";
+import coldBrew from "/src/assets/images/faves/cold-brew.webp";
 
 export const Home = () => {
 
@@ -53,28 +51,20 @@ export const Home = () => {
 
     return (
         <main>
-            <section className="bg-[url('/src/assets/images/hero-bg.webp')] bg-cover bg-center bg-no-repeat h-[870px] mt-16">
+            <section className="bg-[url('/src/assets/images/hero/hero-bg.webp')] bg-cover bg-center bg-no-repeat h-[870px] mt-16">
                 <div className="flex flex-col justify-center h-[85%] max-w-[85%] items-stretch p-5 mx-[144px] text-left">
                     <div>
                         <Link to="/menu" aria-label="redirect to menu page">
                             <img
-                                src={flannel}
-                                className="w-[40%] h-auto relative"
+                                src={letsBru}
+                                className="w-[43%] h-auto flicker-in-1"
                                 alt="Image reading In Fall We Wear Flannel"
                                 decoding="async"
                             />
-                            <img
-                                src={horn}
-                                className="absolute w-48 right-horn flicker-in-1"
-                            />
-                            <img
-                                src={horn}
-                                className="absolute w-48 left-horn flicker-in-1"
-                            />
                         </Link>
                     </div>
-                    <div className="max-w-[550px] text-center ml-4">
-                        <p className="my-6 font-medium text-lg text-center hero-txt leading-8 text-white">
+                    <div className="max-w-[550px] text-center ml-6">
+                        <p className="font-medium text-lg text-center hero-txt leading-8 text-white">
                             Caramel Pumpkin Brûlée is back and brought <br></br>
                             two new sweet treats! Grab your coziest <br></br>
                             flannel and indulge in all the fall flavors.
