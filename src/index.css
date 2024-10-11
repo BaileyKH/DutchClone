@@ -88,6 +88,18 @@
     left: 60px;
   } */
 
+  .dutch-at-home {
+    transform: translate(-20px, -15px)
+  }
+
+  .hiring-container {
+    transform: translateY(0) scale(1);
+  }
+
+  .impact {
+    transform: translate(20px, -15px)
+  }
+
   .flicker-in-1 {
     -webkit-animation: flicker-in-1 2s linear both;
             animation: flicker-in-1 2s linear both;
