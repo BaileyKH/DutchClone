@@ -11,6 +11,10 @@ import classics from "/src/assets/images/faves/classics.webp";
 import rebel from "/src/assets/images/faves/rebel.webp";
 import coldBrew from "/src/assets/images/faves/cold-brew.webp";
 
+import dutchHome from '/src/assets/images/showcase/dutch-at-home.webp'
+import hiring from '/src/assets/images/showcase/hiring-broista.webp'
+import impact from '/src/assets/images/showcase/our-impact.webp'
+
 export const Home = () => {
 
     // Scrolls to top of page on transition between pages
@@ -144,6 +148,63 @@ export const Home = () => {
                         >
                             see full menu
                         </Link>
+                    </div>
+                </div>
+            </section>
+            <section className="flex">
+                <div className="bg-orange-600 py-10 text-center overflow-hidden w-full">
+                    <div className="flex justify-between w-full">
+
+                        <div className="pr-5 flex flex-col w-full">
+                            <div className="mt-5 mb-16">
+                                <h3 className="text-4xl font-bold uppercase text-white">dutch at home</h3>
+                            </div>
+                            <span className="relative pl-5 rounded-r-3xl bg-red-700 w-full">
+                                <Link to='https://shop.dutchbros.com' aria-label="Dutch Bros at Home">
+                                    <img src={dutchHome} className="rounded-r-3xl dutch-at-home h-auto relative w-full z-5"/>
+                                </Link>
+                            </span>
+                            <div className="my-10 mx-auto max-w-[440px] w-full">
+                                <p className="font-bold text-lg text-white">Get Dutch Bros delivered to your door!</p>
+                            </div>
+                            <div className="mt-3">
+                                <a href='https://www.shop.dutchbros.com' aria-label="Coffee Time" className="text-xl text-white font-bold border-2 border-red-700 hover:border-red-900 bg-red-700 hover:bg-red-900 transition-colors duration-300 ease-in-out px-12 py-4 rounded-full uppercase">Coffee Time</a>
+                            </div>
+                        </div>
+
+                        <div className="px-5 flex flex-col w-full">
+                            <div className="mt-5 mb-16">
+                                <h3 className="text-4xl font-bold uppercase text-white">we're hiring!</h3>
+                            </div>
+                            <span className="w-full bg-red-700 rounded-3xl p-3.5 mt-[-14px] hiring-container">
+                                <Link to='/employment' aria-label="dutch bros career opportunities">
+                                    <img src={hiring} className="rounded-3xl h-auto relative w-full z-5 translate-0"/>
+                                </Link>
+                            </span>
+                            <div className="my-10 mx-auto max-w-[440px] w-full">
+                                <p className="font-bold text-lg text-white">Let's make a difference together!</p>
+                            </div>
+                            <div className="mt-3">
+                                <Link to='/employment' aria-label="dutch bros career opportunities" className="text-xl text-white font-bold border-2 border-red-700 hover:border-red-900 bg-red-700 hover:bg-red-900 transition-colors duration-300 ease-in-out px-12 py-4 rounded-full uppercase">learn more</Link>
+                            </div>
+                        </div>
+
+                        <div className="pl-5 flex flex-col w-full">
+                            <div className="mt-5 mb-16">
+                                <h3 className="text-4xl font-bold uppercase text-white">our impact</h3>
+                            </div>
+                            <span className="relative pr-5 rounded-l-3xl bg-red-700 w-full">
+                                <Link to='/our-impact'>
+                                    <img src={impact} className="rounded-l-3xl impact h-auto relative w-full z-5"/>
+                                </Link>
+                            </span>
+                            <div className="my-10 mx-auto max-w-[440px] w-full">
+                                <p className="font-bold text-lg text-white">See how we're making a difference!</p>
+                            </div>
+                            <div className="mt-3">
+                                <Link to='/our-impact' aria-label="Coffee Time" className="text-xl text-white font-bold border-2 border-red-700 hover:border-red-900 bg-red-700 hover:bg-red-900 transition-colors duration-300 ease-in-out px-12 py-4 rounded-full uppercase">learn more</Link>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
