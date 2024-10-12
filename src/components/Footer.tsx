@@ -20,7 +20,7 @@ export const Footer = () => {
                         </Link>
                     </div>
                     <div className="flex py-4">
-                        <ul className="flex py-8 text-orange-600 uppercase space-x-10 tracking-wider">
+                        <ul className="lg:flex lg:flex-row lg:space-x-10 justify-center items-center py-8 text-orange-600 uppercase tracking-wider w-full grid grid-cols-2 gap-y-4 gap-x-5 lg:gap-0 ml-12 lg:ml-0">
                             <li>Contact Us</li>
                             <li>Careers</li>
                             <li>Our Story</li>
@@ -34,7 +34,7 @@ export const Footer = () => {
                 </div>
                 <div className='flex flex-col justify-center items-center w-full p-6'>
                     <div>
-                        <h5 className='uppercase text-orange-600 text-2xl font-bold my-5'>Download our app to start earning free drinks!</h5>
+                        <h5 className='uppercase text-orange-600 text-xl lg:text-2xl font-bold my-5'>Download our app to start earning free drinks!</h5>
                     </div>
                     <div className='flex justify-center items-center w-full gap-x-3'>
                         <a href='https://play.google.com/store/apps/details?id=com.dutchbros.loyalty' aria-label='Dutch bros app on google play store'>
@@ -46,7 +46,7 @@ export const Footer = () => {
                     </div>
                 </div>
                 <div className='mt-6 mb-10'>
-                    <ul className='flex flex-wrap justify-center gap-x-24 text-orange-600 text-center font-bold tracking-wider'>
+                    <ul className='flex flex-wrap justify-center gap-x-12 lg:gap-x-24 text-orange-600 text-center text-sm lg:text-base font-bold tracking-wider'>
                         <li className='my-1'>Terms of Service</li>
                         <li className='my-1'>UGC T+C</li>
                         <li className='my-1'>Privacy Policy</li>
@@ -62,8 +62,9 @@ export const Footer = () => {
                         <img src={instagram} className='w-[40px] h-[40px]'/>
                         <img src={twitter} className='w-[40px] h-[40px]'/>
                     </div>
-                    <div>
+                    <div className='flex flex-col justify-center items-center gap-y-2'>
                         <p className='text-orange-600 text-sm'>©Dutch Bros Coffee - All Right Reserved</p>
+                        <p className='text-orange-600 text-xs'>©Interpretation By: Bailey Henderson Please visit <a className='text-white underline underline-offset-2 hover:text-red-600'>Dutch Bros</a> for all your delicious drink needs</p>
                     </div>
                 </div>
             </div>
