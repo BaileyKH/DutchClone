@@ -26,6 +26,10 @@
   src: url('/fonts/montserrat-v26-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
+* {
+  box-sizing: border-box;
+}
+
 @layer base {
 
   body{
@@ -82,11 +86,6 @@
   .left-bat {
     transform: scalex(-1);
   }
-
-  /* .pumpkin {
-    top: 700px;
-    left: 60px;
-  } */
 
   .dutch-at-home {
     transform: translate(-20px, -15px)
