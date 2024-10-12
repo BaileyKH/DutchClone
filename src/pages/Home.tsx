@@ -56,18 +56,18 @@ export const Home = () => {
     return (
         <main>
             <section className="bg-[url('/src/assets/images/hero/hero-bg.webp')] bg-cover bg-center bg-no-repeat h-[870px] mt-16">
-                <div className="flex flex-col justify-center h-[85%] max-w-[85%] items-stretch p-5 mx-[144px] text-left">
+                <div className="flex flex-col justify-center h-[85%] w-full lg:max-w-[85%] items-center lg:items-stretch p-5 mx-auto lg:mx-[144px] text-left">
                     <div>
                         <Link to="/menu" aria-label="redirect to menu page">
                             <img
                                 src={letsBru}
-                                className="w-[43%] h-auto flicker-in-1"
+                                className="w-[620px] lg:w-[43%] max-w-[820px] h-auto flicker-in-1"
                                 alt="Image reading In Fall We Wear Flannel"
                                 decoding="async"
                             />
                         </Link>
                     </div>
-                    <div className="max-w-[550px] text-center ml-6">
+                    <div className="max-w-[550px] text-center ml-6 lg:ml-9 xl:ml-16">
                         <p className="font-medium text-lg text-center hero-txt leading-8 text-white">
                             Caramel Pumpkin Brûlée is back and brought <br></br>
                             two new sweet treats! Grab your coziest <br></br>
@@ -88,53 +88,53 @@ export const Home = () => {
             <section className="py-16">
                 <div className="max-w-[1366px] w-full mx-auto">
                     <div ref={parentRef} className="mb-8 flex justify-around items-center text-center">
-                        <img ref={textRef1} src={bat} className="w-52 left-bat" />
+                        <img ref={textRef1} src={bat} className="w-32 lg:w-52 left-bat" />
                         <h1 className="font-bold text-5xl uppercase my-5 text-orange-600">
                             dutch coffee<sup>®</sup> drive thru faves
                         </h1>
-                        <img ref={textRef2} src={bat} className="w-52" />
+                        <img ref={textRef2} src={bat} className="w-32 lg:w-52" />
                     </div>
                     <div className="flex justify-evenly items-center">
                         <div>
-                            <Link to="/menu/dutch-faves" className="mx-6">
+                            <Link to="/menu/dutch-faves" className="mx-0 lg:mx-6 flex flex-col justify-center items-center text-center">
                                 <div>
                                     <img
                                         src={classics}
-                                        className="hover:scale-95 transition-transform ease-in-out w-[407px]"
+                                        className="hover:scale-95 transition-transform ease-in-out w-[204px] lg:w-[407px]"
                                     />
                                 </div>
                                 <div className="flex justify-center">
-                                    <h3 className="text-3xl font-bold text-orange-600 my-5 uppercase">
+                                    <h3 className="text-2xl lg:text-3xl font-bold text-orange-600 my-5 uppercase">
                                         Dutch Faves
                                     </h3>
                                 </div>
                             </Link>
                         </div>
                         <div>
-                            <Link to="/menu/rebels" className="mx-6">
+                            <Link to="/menu/rebels" className="mx-0 lg:mx-6 flex flex-col justify-center items-center text-center">
                                 <div>
                                     <img
                                         src={rebel}
-                                        className="hover:scale-95 transition-transform ease-in-out w-[407px]"
+                                        className="hover:scale-95 transition-transform ease-in-out w-[204px] lg:w-[407px]"
                                     />
                                 </div>
                                 <div className="flex justify-center">
-                                    <h3 className="text-3xl font-bold text-orange-600 my-5 uppercase">
+                                    <h3 className="text-2xl lg:text-3xl font-bold text-orange-600 my-5 uppercase">
                                         Dutch Bros Rebel™
                                     </h3>
                                 </div>
                             </Link>
                         </div>
                         <div>
-                            <Link to="/menu/classics" className="mx-6">
+                            <Link to="/menu/classics" className="mx-0 lg:mx-6 flex flex-col justify-center items-center text-center">
                                 <div>
                                     <img
                                         src={coldBrew}
-                                        className="hover:scale-95 transition-transform ease-in-out w-[407px]"
+                                        className="hover:scale-95 transition-transform ease-in-out w-[204px] lg:w-[407px]"
                                     />
                                 </div>
                                 <div className="flex justify-center">
-                                    <h3 className="text-3xl font-bold text-orange-600 my-5 uppercase">
+                                    <h3 className="text-2xl lg:text-3xl font-bold text-orange-600 my-5 uppercase">
                                         Coffee Classics
                                     </h3>
                                 </div>
@@ -152,12 +152,12 @@ export const Home = () => {
                 </div>
             </section>
             <section className="flex">
-                <div className="bg-orange-600 py-10 text-center overflow-hidden w-full">
+                <div className="bg-orange-600 py-6 lg:py-10 text-center overflow-hidden w-full">
                     <div className="flex justify-between w-full">
 
-                        <div className="pr-5 flex flex-col w-full">
-                            <div className="mt-5 mb-16">
-                                <h3 className="text-4xl font-bold uppercase text-white">dutch at home</h3>
+                        <div className="pr-3 lg:pr-5 flex flex-col w-full">
+                            <div className="mt-5 mb-10 lg:mb-16">
+                                <h3 className="text-2xl lg:text-4xl font-bold uppercase text-white">dutch at home</h3>
                             </div>
                             <span className="relative pl-5 rounded-r-3xl bg-red-700 w-full">
                                 <Link to='https://shop.dutchbros.com' aria-label="Dutch Bros at Home">
@@ -165,16 +165,16 @@ export const Home = () => {
                                 </Link>
                             </span>
                             <div className="my-10 mx-auto max-w-[440px] w-full">
-                                <p className="font-bold text-lg text-white">Get Dutch Bros delivered to your door!</p>
+                                <p className="font-bold text-lg lg:text-xl text-white pr-2 lg:pr-0">Get Dutch Bros delivered to your door!</p>
                             </div>
                             <div className="mt-3">
-                                <a href='https://www.shop.dutchbros.com' aria-label="Coffee Time" className="text-xl text-white font-bold border-2 border-red-700 hover:border-red-900 bg-red-700 hover:bg-red-900 transition-colors duration-300 ease-in-out px-12 py-4 rounded-full uppercase">Coffee Time</a>
+                                <a href='https://www.shop.dutchbros.com' aria-label="Coffee Time" className="text-base lg:text-xl text-white font-bold border-2 border-red-700 hover:border-red-900 bg-red-700 hover:bg-red-900 transition-colors duration-300 ease-in-out px-10 lg:px-12 py-4 rounded-full uppercase">Coffee Time</a>
                             </div>
                         </div>
 
-                        <div className="px-5 flex flex-col w-full">
-                            <div className="mt-5 mb-16">
-                                <h3 className="text-4xl font-bold uppercase text-white">we're hiring!</h3>
+                        <div className="px-3 lg:px-5 flex flex-col w-full">
+                            <div className="mt-5 mb-10 lg:mb-16">
+                                <h3 className="text-2xl lg:text-4xl font-bold uppercase text-white">we're hiring!</h3>
                             </div>
                             <span className="w-full bg-red-700 rounded-3xl p-3.5 mt-[-14px] hiring-container">
                                 <Link to='/employment' aria-label="dutch bros career opportunities">
@@ -182,16 +182,16 @@ export const Home = () => {
                                 </Link>
                             </span>
                             <div className="my-10 mx-auto max-w-[440px] w-full">
-                                <p className="font-bold text-lg text-white">Let's make a difference together!</p>
+                                <p className="font-bold text-lg lg:text-xl text-white">Let's make a difference together!</p>
                             </div>
                             <div className="mt-3">
-                                <Link to='/employment' aria-label="dutch bros career opportunities" className="text-xl text-white font-bold border-2 border-red-700 hover:border-red-900 bg-red-700 hover:bg-red-900 transition-colors duration-300 ease-in-out px-12 py-4 rounded-full uppercase">learn more</Link>
+                                <Link to='/employment' aria-label="dutch bros career opportunities" className="text-base lg:text-xl text-white font-bold border-2 border-red-700 hover:border-red-900 bg-red-700 hover:bg-red-900 transition-colors duration-300 ease-in-out px-10 lg:px-12 py-4 rounded-full uppercase">learn more</Link>
                             </div>
                         </div>
 
-                        <div className="pl-5 flex flex-col w-full">
-                            <div className="mt-5 mb-16">
-                                <h3 className="text-4xl font-bold uppercase text-white">our impact</h3>
+                        <div className="pl-3 lg:pl-5 flex flex-col w-full">
+                            <div className="mt-5 mb-10 lg:mb-16">
+                                <h3 className="text-2xl lg:text-4xl font-bold uppercase text-white">our impact</h3>
                             </div>
                             <span className="relative pr-5 rounded-l-3xl bg-red-700 w-full">
                                 <Link to='/our-impact'>
@@ -199,10 +199,10 @@ export const Home = () => {
                                 </Link>
                             </span>
                             <div className="my-10 mx-auto max-w-[440px] w-full">
-                                <p className="font-bold text-lg text-white">See how we're making a difference!</p>
+                                <p className="font-bold text-lg lg:text-xl text-white">See how we're making a difference!</p>
                             </div>
                             <div className="mt-3">
-                                <Link to='/our-impact' aria-label="Coffee Time" className="text-xl text-white font-bold border-2 border-red-700 hover:border-red-900 bg-red-700 hover:bg-red-900 transition-colors duration-300 ease-in-out px-12 py-4 rounded-full uppercase">learn more</Link>
+                                <Link to='/our-impact' aria-label="Coffee Time" className="text-base lg:text-xl text-white font-bold border-2 border-red-700 hover:border-red-900 bg-red-700 hover:bg-red-900 transition-colors duration-300 ease-in-out px-10 lg:px-12 py-4 rounded-full uppercase">learn more</Link>
                             </div>
                         </div>
                     </div>
