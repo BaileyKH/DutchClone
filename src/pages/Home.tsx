@@ -192,11 +192,12 @@ export const Home = () => {
                                 </Link>
                             </span>
                             <div className="my-10 mx-auto max-w-[440px] w-full">
-                                <p className="font-bold text-lg lg:text-xl text-white">Let's make a difference together!</p>
-                            </div>
-                            <div className="mt-3">
+                                <p className="font-bold text-lg lg:text-xl text-white mb-12 lg:mb-14">Let's make a difference together!</p>
                                 <Link to='/inprogress' aria-label="dutch bros career opportunities" className="text-base lg:text-xl text-white font-bold border-2 border-red-700 hover:border-red-900 bg-red-700 hover:bg-red-900 transition-colors duration-300 ease-in-out px-10 lg:px-12 py-4 rounded-full uppercase">learn more</Link>
                             </div>
+                            {/* <div className="mt-3">
+                                <Link to='/inprogress' aria-label="dutch bros career opportunities" className="text-base lg:text-xl text-white font-bold border-2 border-red-700 hover:border-red-900 bg-red-700 hover:bg-red-900 transition-colors duration-300 ease-in-out px-10 lg:px-12 py-4 rounded-full uppercase">learn more</Link>
+                            </div> */}
                         </div>
 
                         <div className="pl-3 lg:pl-5 flex flex-col w-full">
