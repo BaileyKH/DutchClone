@@ -86,10 +86,11 @@ export const NavBar = () => {
                             <img src={tiktok} alt='tiktok' className='w-[40px] h-[40px]' decoding="async"/>
                         </div>
                         <div className='mt-2'>
-                            <p className='text-orange-600 text-sm'>©Dutch Bros Coffee - All Right Reserved</p>
+                            <p className='text-orange-600 text-sm mb-2'>©Dutch Bros Coffee - All Right Reserved</p>
+                            <p className='text-orange-600 text-xs px-12 md:px-0 text-center'>©Interpretation By: Bailey Henderson Please visit <a href='https://www.dutchbros.com/' aria-label='link to official dutch bros website' target='_blank' className='text-white underline underline-offset-2 hover:text-red-600'>Dutch Bros</a> for all your delicious drink needs</p>
                         </div>
                         <div className='mt-4 md:mt-24'>
-                            <img src={pumpkin} alt='neon pumpkin' className={`${isMobile ? 'flicker-in-1' : ''} w-[180px] md:w-[220px]`} decoding="async"/>
+                            <img src={pumpkin} alt='neon pumpkin' className={`${isMobile ? 'flicker-in-1' : ''} w-[120px]`} decoding="async"/>
                         </div>
                     </div>
                 </div>
