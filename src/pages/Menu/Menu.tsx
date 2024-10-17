@@ -29,7 +29,7 @@ export const Menu = () => {
                             <div key={item.id} className='flex self-baseline w-full max-w-[240px] text-center m-3 hover-effect basis-[40%]'>
                                 <Link to='/inprogress' aria-label={item.ariaLabel}>
                                     <div className='relative'>
-                                        <img src={item.image} alt={item.alt} className='relative z-30 w-full transition-all duration-200 ease-in-out scale-effect' decoding="async" loading='eager'/>
+                                        <img src={item.image} alt={item.alt} className='relative z-30 w-full transition-all duration-200 ease-in-out scale-effect' decoding="async"/>
                                         <div className='absolute border-effect border border-orange-600/25 w-full h-[52%] rounded-xl bottom-3 left-0 z-0 transition-colors ease-linear duration-200'></div>
                                     </div>
                                     <h3 className='text-orange-600 my-6 uppercase'>{item.menuItem}</h3>          
