@@ -32,7 +32,7 @@ export const NavBar = () => {
     return(
         <nav className='fixed top-0 z-40 w-full bg-black/90 shadow-md'>
             <div className='hidden lg:flex justify-around items-center h-16'>
-                <ul className='flex gap-x-6'>
+                <ul className='flex gap-x-12'>
                     <li><Link to='/menu' aria-label='redirect to full menu' className='nav-text'>menu</Link></li>
                     <li><Link to='/rewards' aria-label='redirect to dutch rewards' className='nav-text'>rewards</Link></li>
                     <li><Link to='/giftcards' aria-label='redurect to dutch bros gift cards' className='nav-text'>gift cards</Link></li>
@@ -42,7 +42,7 @@ export const NavBar = () => {
                 </div>
                 <div className='flex space-x-8'>
                     <Link to='/inprogress' aria-label='redirect to dutch bros locations'><img src={locator} alt='location pin' className='hover:scale-110 transition-transform ease-in-out' decoding="async"/></Link>
-                    <Link to='/inprogress' aria-label='redirect to dutch full menu'><img src={menu} alt='dutch bros coffee cup' className='hover:scale-110 transition-transform ease-in-out' decoding="async"/></Link>
+                    <Link to='/menu' aria-label='redirect to dutch full menu'><img src={menu} alt='dutch bros coffee cup' className='hover:scale-110 transition-transform ease-in-out' decoding="async"/></Link>
                 </div>
             </div>
 
@@ -61,7 +61,7 @@ export const NavBar = () => {
                         <div className='my-4'>
                             <ul className='flex flex-col justify-center items-center gap-y-6 mb-10 text-orange-600 font-medium uppercase'>
                                 <li><Link to='/inprogress' onClick={handleMobileView} aria-label='redirect to dutch bros locations'>locations</Link></li>
-                                <li><Link to='/inprogress' onClick={handleMobileView} aria-label='redirect to dutch full menu'>menu</Link></li>
+                                <li><Link to='/menu' onClick={handleMobileView} aria-label='redirect to dutch full menu'>menu</Link></li>
                                 <li><Link to='/inprogress' onClick={handleMobileView} aria-label='redirect to dutch rewards'>rewards</Link></li>
                                 <li><Link to='/inprogress' onClick={handleMobileView} aria-label='redirect to dutch bros gift cards'>gift cards</Link></li>
                             </ul>
