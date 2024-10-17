@@ -40,7 +40,7 @@ export const NavBar = () => {
                 <div className='block'>
                     <Link to='/' aria-label='redirect to home page'><img src={dutchLogo} className='w-[140px]' decoding="async"/></Link>
                 </div>
-                <div className='flex space-x-8'>
+                <div className='flex space-x-11'>
                     <Link to='/inprogress' aria-label='redirect to dutch bros locations'><img src={locator} alt='location pin' className='hover:scale-110 transition-transform ease-in-out' decoding="async"/></Link>
                     <Link to='/menu' aria-label='redirect to dutch full menu'><img src={menu} alt='dutch bros coffee cup' className='hover:scale-110 transition-transform ease-in-out' decoding="async"/></Link>
                 </div>
