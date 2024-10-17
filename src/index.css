@@ -71,19 +71,7 @@
     box-shadow: 0 0 0px 8px rgba(251, 139, 0, 0.8);
   }
 
-  .right-horn {
-    top: 100px;
-    left: 555px;
-    transform: rotate(15deg);
-  }
-
-  .left-horn {
-    top: 100px;
-    left: 100px;
-    transform: scalex(-1) rotate(15deg);
-  }
-
-  .left-bat {
+  .left-bat, .search-img {
     transform: scalex(-1);
   }
 
@@ -97,6 +85,20 @@
 
   .impact {
     transform: translate(20px, -15px)
+  }
+
+  .witch-hat {
+    transform: rotate(-12deg);
+  }
+
+  .hover-effect:hover {
+    .border-effect {
+      @apply border-orange-600
+    }
+
+    .scale-effect {
+      @apply scale-110 transition-transform ease-in-out
+    }
   }
 
   .flicker-in-1 {
