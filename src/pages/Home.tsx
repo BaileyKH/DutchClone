@@ -152,7 +152,7 @@ export const Home = () => {
                     </div>
                     <div className="mt-10 flex justify-center">
                         <Link
-                            to="/inprogress"
+                            to="/menu"
                             aria-label='redirect to full dutch bros menu'
                             className="text-white text-center font-bold rounded-full min-w-[200px] w-fit m-4 px-4 py-3 bg-orange-600 hover:bg-[#fb8b00] hover:border-[#fb8b00] border-2 border-orange-600 uppercase transition-colors duration-300 ease-in-out"
                         >

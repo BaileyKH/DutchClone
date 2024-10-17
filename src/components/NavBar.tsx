@@ -34,8 +34,8 @@ export const NavBar = () => {
             <div className='hidden lg:flex justify-around items-center h-16'>
                 <ul className='flex gap-x-12'>
                     <li><Link to='/menu' aria-label='redirect to full menu' className='nav-text'>menu</Link></li>
-                    <li><Link to='/rewards' aria-label='redirect to dutch rewards' className='nav-text'>rewards</Link></li>
-                    <li><Link to='/giftcards' aria-label='redurect to dutch bros gift cards' className='nav-text'>gift cards</Link></li>
+                    <li><Link to='/inprogress' aria-label='redirect to dutch rewards' className='nav-text'>rewards</Link></li>
+                    <li><Link to='/inprogress' aria-label='redurect to dutch bros gift cards' className='nav-text'>gift cards</Link></li>
                 </ul>
                 <div className='block'>
                     <Link to='/' aria-label='redirect to home page'><img src={dutchLogo} className='w-[140px]' decoding="async"/></Link>
@@ -99,7 +99,7 @@ export const NavBar = () => {
                 </div>
                 <div className='flex gap-x-8'>
                     <Link to='/inprogress' aria-label='redirect to dutch bros locations'><img src={locator} alt='location pin' className='hover:scale-110 transition-transform ease-in-out w-[20px]' decoding="async"/></Link>
-                    <Link to='/inprogress' aria-label='redirect to full dutch menu'><img src={menu} alt='dutch bros coffee cup' className='hover:scale-110 transition-transform ease-in-out w-[20px]' decoding="async"/></Link>
+                    <Link to='/menu' aria-label='redirect to full dutch menu'><img src={menu} alt='dutch bros coffee cup' className='hover:scale-110 transition-transform ease-in-out w-[20px]' decoding="async"/></Link>
                 </div>
             </div>
         </nav>
