@@ -91,6 +91,16 @@
     transform: rotate(-12deg);
   }
 
+  .hover-effect:hover {
+    .border-effect {
+      @apply border-orange-600
+    }
+
+    .scale-effect {
+      @apply scale-110 transition-transform ease-in-out
+    }
+  }
+
   .flicker-in-1 {
     -webkit-animation: flicker-in-1 2s linear both;
             animation: flicker-in-1 2s linear both;
