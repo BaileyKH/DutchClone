@@ -19,7 +19,8 @@ export const fullMenuData = [
         menuItem: 'Seasonal Drinks',
         image: fallFaves,
         alt: 'dutch bros seasonal drinks',
-        ariaLabel: 'redirect to dutch bros seasonal drinks'
+        ariaLabel: 'redirect to dutch bros seasonal drinks',
+        path: 'seasonal-drinks'
 
     },
     {
@@ -27,7 +28,8 @@ export const fullMenuData = [
         menuItem: 'Dutch Faves',
         image: dutchFaves,
         alt: 'dutch bros favorites',
-        ariaLabel: 'redirect to dutch bros favorite drinks'
+        ariaLabel: 'redirect to dutch bros favorite drinks',
+        path: 'dutch-favorites'
 
     },
     {
@@ -35,7 +37,8 @@ export const fullMenuData = [
         menuItem: 'Protein Coffee',
         image: protienCoffee,
         alt: 'dutch bros protein coffee',
-        ariaLabel: 'redirect to dutch bros protein coffee drinks'
+        ariaLabel: 'redirect to dutch bros protein coffee drinks',
+        path: 'protein-coffee'
 
     },
     {
@@ -43,7 +46,8 @@ export const fullMenuData = [
         menuItem: 'Blended Freeze',
         image: blended,
         alt: 'dutch bros blended drinks',
-        ariaLabel: 'redirect to dutch bros blended drinks'
+        ariaLabel: 'redirect to dutch bros blended drinks',
+        path: 'blended-freeze'
 
     },
     {
@@ -51,7 +55,8 @@ export const fullMenuData = [
         menuItem: 'Coffee Classics',
         image: classics,
         alt: 'dutch bros classic coffees',
-        ariaLabel: 'redirect to dutch bros coffee classic drinks'
+        ariaLabel: 'redirect to dutch bros coffee classic drinks',
+        path: 'classic-coffees'
 
     },
     {
@@ -59,7 +64,8 @@ export const fullMenuData = [
         menuItem: 'Dutch Bros Rebel™ Energy Drink',
         image: rebel,
         alt: 'dutch bros rebel drinks',
-        ariaLabel: 'redirect to dutch bros rebel drinks'
+        ariaLabel: 'redirect to dutch bros rebel drinks',
+        path: 'rebels'
 
     },
     {
@@ -67,7 +73,8 @@ export const fullMenuData = [
         menuItem: 'Lemonade',
         image: lemonade,
         alt: 'dutch bros lemonade drinks',
-        ariaLabel: 'redirect to dutch bros lemonade drinks'
+        ariaLabel: 'redirect to dutch bros lemonade drinks',
+        path: 'lemonades'
 
     },
     {
@@ -75,7 +82,8 @@ export const fullMenuData = [
         menuItem: 'Iced Tea',
         image: icedTea,
         alt: 'dutch bros iced tea',
-        ariaLabel: 'redirect to dutch bros iced teas'
+        ariaLabel: 'redirect to dutch bros iced teas',
+        path: 'iced-teas'
 
     },
     {
@@ -83,7 +91,8 @@ export const fullMenuData = [
         menuItem: 'Chai Latte',
         image: chaiLatte,
         alt: 'dutch bros chai lattes',
-        ariaLabel: 'redirect to chai lattes'
+        ariaLabel: 'redirect to chai lattes',
+        path: 'chai-lattes'
 
     },
     {
@@ -91,7 +100,8 @@ export const fullMenuData = [
         menuItem: 'Shakes',
         image: shakes,
         alt: 'dutch bro shakes',
-        ariaLabel: 'redirec to dutch bros shakes'
+        ariaLabel: 'redirec to dutch bros shakes',
+        path: 'shakes'
 
     },
     {
@@ -99,7 +109,8 @@ export const fullMenuData = [
         menuItem: 'Hot Cocoa',
         image: hotCocoa,
         alt: 'dutch bros hot cocoa',
-        ariaLabel: 'redirect to dutch bros hot cocoa'
+        ariaLabel: 'redirect to dutch bros hot cocoa',
+        path: 'hot-cocoa'
 
     },
     {
@@ -107,7 +118,8 @@ export const fullMenuData = [
         menuItem: 'Smoothies',
         image: smoothies,
         alt: 'dutch bros smoothies',
-        ariaLabel: 'redirect to dutch bros smoothes'
+        ariaLabel: 'redirect to dutch bros smoothes',
+        path: 'smoothies'
 
     },
     {
@@ -115,7 +127,8 @@ export const fullMenuData = [
         menuItem: 'Sparkling Soda',
         image: sparklingSoda,
         alt: 'dutch bros sparkling soda',
-        ariaLabel: 'redirect to dutch bros sparkling sodas'
+        ariaLabel: 'redirect to dutch bros sparkling sodas',
+        path: 'sparkling-sodas'
 
     },
     {
@@ -123,7 +136,8 @@ export const fullMenuData = [
         menuItem: 'Snacks',
         image: snacks,
         alt: 'dutch bros snacks',
-        ariaLabel: 'redirect to dutch bros snacks'
+        ariaLabel: 'redirect to dutch bros snacks',
+        path: 'snacks'
 
     },
 ]
