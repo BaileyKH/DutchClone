@@ -20,7 +20,7 @@ export const fullMenuData = [
         image: fallFaves,
         alt: 'dutch bros seasonal drinks',
         ariaLabel: 'redirect to dutch bros seasonal drinks',
-        path: 'seasonal-drinks'
+        path: 'seasonal'
 
     },
     {

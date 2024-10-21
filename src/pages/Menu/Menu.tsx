@@ -27,7 +27,7 @@ export const Menu = () => {
                     <div className='flex justify-center items-center flex-wrap'>
                         {menu.map(item => (
                             <div key={item.id} className='flex self-baseline w-full max-w-[240px] text-center m-3 hover-effect basis-[40%]'>
-                                <Link to='/inprogress' aria-label={item.ariaLabel}>
+                                <Link to={`/menu/${item.path}`} aria-label={item.ariaLabel}>
                                     <div className='relative'>
                                         <img src={item.image} alt={item.alt} className='relative z-30 w-full transition-all duration-200 ease-in-out scale-effect' decoding="async"/>
                                         <div className='absolute border-effect border border-orange-600/25 w-full h-[52%] rounded-xl bottom-3 left-0 z-0 transition-colors ease-linear duration-200'></div>
