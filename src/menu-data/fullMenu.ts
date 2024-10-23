@@ -29,7 +29,7 @@ export const fullMenuData = [
         image: dutchFaves,
         alt: 'dutch bros favorites',
         ariaLabel: 'redirect to dutch bros favorite drinks',
-        path: 'dutch-favorites'
+        path: 'favorites'
 
     },
     {
@@ -38,7 +38,7 @@ export const fullMenuData = [
         image: protienCoffee,
         alt: 'dutch bros protein coffee',
         ariaLabel: 'redirect to dutch bros protein coffee drinks',
-        path: 'protein-coffee'
+        path: 'protein'
 
     },
     {
@@ -47,7 +47,7 @@ export const fullMenuData = [
         image: blended,
         alt: 'dutch bros blended drinks',
         ariaLabel: 'redirect to dutch bros blended drinks',
-        path: 'blended-freeze'
+        path: 'blended'
 
     },
     {
@@ -56,7 +56,7 @@ export const fullMenuData = [
         image: classics,
         alt: 'dutch bros classic coffees',
         ariaLabel: 'redirect to dutch bros coffee classic drinks',
-        path: 'classic-coffees'
+        path: 'classics'
 
     },
     {
@@ -83,7 +83,7 @@ export const fullMenuData = [
         image: icedTea,
         alt: 'dutch bros iced tea',
         ariaLabel: 'redirect to dutch bros iced teas',
-        path: 'iced-teas'
+        path: 'teas'
 
     },
     {
@@ -92,7 +92,7 @@ export const fullMenuData = [
         image: chaiLatte,
         alt: 'dutch bros chai lattes',
         ariaLabel: 'redirect to chai lattes',
-        path: 'chai-lattes'
+        path: 'chai'
 
     },
     {
@@ -110,7 +110,7 @@ export const fullMenuData = [
         image: hotCocoa,
         alt: 'dutch bros hot cocoa',
         ariaLabel: 'redirect to dutch bros hot cocoa',
-        path: 'hot-cocoa'
+        path: 'hotcocoa'
 
     },
     {
@@ -128,7 +128,7 @@ export const fullMenuData = [
         image: sparklingSoda,
         alt: 'dutch bros sparkling soda',
         ariaLabel: 'redirect to dutch bros sparkling sodas',
-        path: 'sparkling-sodas'
+        path: 'sparklingsodas'
 
     },
     {
