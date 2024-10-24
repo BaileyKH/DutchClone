@@ -7,7 +7,7 @@ import { dutchFavorites } from "../menu-data/dutch-favs";
 import { proteinCoffee } from "../menu-data/protein";
 import { blendedFreeze } from "../menu-data/blended";
 import { classicCoffees } from "../menu-data/classics";
-
+import { dutchSmoothie } from "../menu-data/smoothies";
 import { snackFood } from "../menu-data/snacks";
 
 interface CategoryData {
@@ -32,7 +32,8 @@ export const CategoryLayout = () => {
         protein: proteinCoffee,
         blended: blendedFreeze,
         snacks: snackFood,
-        classics: classicCoffees
+        classics: classicCoffees,
+        smoothies: dutchSmoothie
     };
 
     const categoryData = category ? dataMap[category] : { title: 'Category Not Found', description: '', items: [] };
