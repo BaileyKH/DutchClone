@@ -5,6 +5,7 @@ import backArrow from '/src/assets/images/menu/chevron-left.svg'
 import { seasonalDrinks } from "../menu-data/seasonal-drinks";
 import { dutchFavorites } from "../menu-data/dutch-favs";
 import { proteinCoffee } from "../menu-data/protein";
+import { blendedFreeze } from "../menu-data/blended";
 
 interface CategoryData {
     title: string;
@@ -25,7 +26,8 @@ export const CategoryLayout = () => {
     const dataMap: { [key: string]: CategoryData } = {
         seasonal: seasonalDrinks,
         favorites: dutchFavorites,
-        protein: proteinCoffee
+        protein: proteinCoffee,
+        blended: blendedFreeze
     };
 
     const categoryData = category ? dataMap[category] : { title: 'Category Not Found', description: '', items: [] };
