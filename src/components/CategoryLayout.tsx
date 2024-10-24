@@ -7,6 +7,8 @@ import { dutchFavorites } from "../menu-data/dutch-favs";
 import { proteinCoffee } from "../menu-data/protein";
 import { blendedFreeze } from "../menu-data/blended";
 
+import { snackFood } from "../menu-data/snacks";
+
 interface CategoryData {
     title: string;
     description: string;
@@ -27,7 +29,8 @@ export const CategoryLayout = () => {
         seasonal: seasonalDrinks,
         favorites: dutchFavorites,
         protein: proteinCoffee,
-        blended: blendedFreeze
+        blended: blendedFreeze,
+        snacks: snackFood
     };
 
     const categoryData = category ? dataMap[category] : { title: 'Category Not Found', description: '', items: [] };
@@ -42,7 +45,7 @@ export const CategoryLayout = () => {
                 <div className="flex flex-col justify-center items-center">
                     <div className="px-4 mb-10 text-center">
                         <h1 className="my-5 text-6xl text-orange-600 font-bold uppercase">{categoryData.title}</h1>
-                        <h2 className="my-5 text-orange-600 text-lg uppercase">{categoryData.description}</h2>
+                        <h2 className="my-5 text-orange-600 text-lg uppercase">{categoryData.description ? categoryData.description : ''}</h2>
                     </div>
                     <div className="flex justify-center flex-wrap mx-auto max-w-[1440px]">
                         {categoryData.items.map(item => (
