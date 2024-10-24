@@ -3,6 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import backArrow from '/src/assets/images/menu/chevron-left.svg'
 
 import { seasonalDrinks } from "../menu-data/seasonal-drinks";
+import { dutchFavorites } from "../menu-data/dutch-favs";
 
 interface CategoryData {
     title: string;
@@ -21,7 +22,8 @@ export const CategoryLayout = () => {
     const { category } = useParams<Record<string, string | undefined>>();
 
     const dataMap: { [key: string]: CategoryData } = {
-        seasonal: seasonalDrinks
+        seasonal: seasonalDrinks,
+        favorites: dutchFavorites
     };
 
     const categoryData = category ? dataMap[category] : { title: 'Category Not Found', description: '', items: [] };
