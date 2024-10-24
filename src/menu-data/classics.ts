@@ -7,8 +7,8 @@ import oatMilk from '/src/assets/images/menu/categories/classics/h_ice_lat_oat_W
 import nitro from '/src/assets/images/menu/categories/classics/Nitro_Cold_Brew_Iced_HERO.png'
 
 export const classicCoffees = {
-    title: "Snacks",
-    description: "Delicious treats to pair with your drink.",
+    title: "Coffee Classics",
+    description: "A fresh cup of energy, crafted just how you like it.",
     items: [
         {
             id: 1,
