@@ -75,8 +75,8 @@ export const Home = () => {
                         </p>
                         <div className="mt-12 md:mt-16">
                             <Link
-                                to="/inprogress"
-                                aria-label="redirect to menu page"
+                                to="/menu/seasonal"
+                                aria-label="redirect to seasonal drinks page"
                                 className="text-white font-bold bg-[#fb8b00] border-2 border-[#C65301] min-w-[200px] mx-4 mb-4 px-10 py-4 text-center uppercase rounded-full  transition-all duration-200 ease-out hero-btn-hover"
                             >
                                 view menu
